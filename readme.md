@@ -9,17 +9,17 @@ The application is built using `tkinter` for the GUI and leverages the `PySpin` 
 
 This code was developed for the following camera model, based on the provided documentation:
 
-| Specification         | Details                                       | Source                  |
-| --------------------- | --------------------------------------------- | ----------------------- |
-| **Model** | [cite_start]Blackfly S BFS-U3-51S5C-C                       | [cite: 6, 9]            |
-| **Sensor** | [cite_start]Sony IMX250                                   | [cite: 27, 135]         |
-| **Resolution** | [cite_start]2448 x 2048                                   | [cite: 52, 125]         |
-| **Megapixels** | [cite_start]5.0 MP                                        | [cite: 7, 52, 107]      |
-| **Spectrum** | [cite_start]Color                                         | [cite: 7]               |
-| **Interface** | [cite_start]USB 3.0                                       | [cite: 7]               |
-| **Max Frame Rate** | [cite_start]75 FPS                                        | [cite: 27, 52]          |
-| **Sensor Type** | [cite_start]CMOS, Global Shutter                          | [cite: 7, 136, 137]     |
-| **Digitization Depth**| [cite_start]10-bit, 12-bit                                | [cite: 99]              |
+| Specification         | Details                                       |
+| --------------------- | --------------------------------------------- |
+| **Model** | Blackfly S BFS-U3-51S5C-C                       |
+| **Sensor** | Sony IMX250                                   |
+| **Resolution** | 2448 x 2048                                   |
+| **Megapixels** | 5.0 MP                                        |
+| **Spectrum** | Color                                         |
+| **Interface** | USB 3.0                                       |
+| **Max Frame Rate** | 75 FPS                                        |
+| **Sensor Type** | CMOS, Global Shutter                          |
+| **Digitization Depth**| 10-bit, 12-bit                                |
 
 ---
 ## ✨ Features
@@ -74,10 +74,10 @@ This change ensures the display window will always open on your main monitor.
 ## ⚙️ Setup and Installation
 
 ### 1. Prerequisites
-[cite_start]Before running the software, you must install the **FLIR Spinnaker SDK**[cite: 1, 2]. `PySpin` is a Python wrapper for this SDK and requires it to function.
+[Before running the software, you must install the **FLIR Spinnaker SDK**.] `PySpin` is a Python wrapper for this SDK and requires it to function.
 
-* [cite_start]Download the latest SDK from the [FLIR website](https://www.flir.com/mv-techsupport/downloads)[cite: 11].
-* [cite_start]Ensure the camera is properly connected to a USB 3.0 port on your computer[cite: 7, 123].
+* Download the latest SDK from the [FLIR website](https://www.flir.com/mv-techsupport/downloads).
+* Ensure the camera is properly connected to a USB 3.0 port on your computer.
 
 ### 2. Clone the Repository
 ```bash
